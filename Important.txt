@@ -1,0 +1,5 @@
+In this authentication is done using cookies.
+
+In this Jwt token is used then We need to store the token in the db and also add one more condition on the token checking middleware for the safety and expiry token purpose.
+
+If Custom crypto token is there there then token as well as the expiry time is stored in the db and do perform the expiry condition and token condition on the middleware.
